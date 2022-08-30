@@ -21,7 +21,7 @@
 		<table>
 			<tr>
 				<td>
-					<select title="searchKey" writer="searchKey">
+					<select name="searchKey" id="searchKey">
 	            	<option value="title">제목</option>
 	            	<option value="writer">작성자</option>
 	            	</select>
