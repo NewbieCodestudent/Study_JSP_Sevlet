@@ -1,0 +1,30 @@
+table {
+    margin: auto;
+}
+table tr td {
+    text-align: center;
+}
+tr:nth-child(odd) {
+    /* 짝수행에 색 */
+    background: rgb(111, 222, 222);
+}
+tr:nth-child(even) {
+    /* 홀수행에 색 */
+    background: rgb(72, 209, 85);
+}
+th {
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(72, 209, 85);
+}
+
+td a {
+	font-size: 10px;
+    color: #fff;
+    display: block;
+    font-weight: 1px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
