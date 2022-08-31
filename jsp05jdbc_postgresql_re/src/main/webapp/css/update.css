@@ -1,0 +1,18 @@
+table{
+    margin: auto;
+}
+table tr td{
+    width: 100px;
+    text-align: center;
+}
+th{
+    background-color: rgb(111, 222, 111);
+    color: ghostwhite;
+}
+
+tr:nth-child(odd){
+    background: rgb(181, 222, 181);
+}
+tr:nth-child(even){
+    background: rgb(211, 222, 211);
+}
